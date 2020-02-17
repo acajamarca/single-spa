@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('iconos/icomoon.eot?zam8f2');
+  src:  url('iconos/icomoon.eot?zam8f2#iefix') format('embedded-opentype'),
+    url('iconos/icomoon.ttf?zam8f2') format('truetype'),
+    url('iconos/icomoon.woff?zam8f2') format('woff'),
+    url('iconos/icomoon.svg?zam8f2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-move:before {
+  content: "\e911";
+}
+.icon-pagination-back:before {
+  content: "\e904";
+}
+.icon-step-back:before {
+  content: "\e916";
+}
+.icon-eye:before {
+  content: "\e91a";
+}
+.icon-selector:before {
+  content: "\e919";
+}
+.icon-add:before {
+  content: "\e900";
+}
+.icon-alert:before {
+  content: "\e901";
+}
+.icon-backarrow:before {
+  content: "\e902";
+}
+.icon-bell:before {
+  content: "\e903";
+}
+.icon-check:before {
+  content: "\e9042";
+}
+.icon-clock:before {
+  content: "\e9052";
+}
+.icon-config:before {
+  content: "\e906";
+}
+.icon-configmenu:before {
+  content: "\e907";
+}
+.icon-currency:before {
+  content: "\e908";
+}
+.icon-date:before {
+  content: "\e909";
+}
+.icon-edit:before {
+  content: "\e90a";
+}
+.icon-folder:before {
+  content: "\e90b";
+}
+.icon-garbage:before {
+  content: "\e90c";
+}
+.icon-home:before {
+  content: "\e90d";
+}
+.icon-legal:before {
+  content: "\e90e";
+}
+.icon-locked:before {
+  content: "\e90f";
+}
+.icon-openup:before {
+  content: "\e910";
+}
+.icon-pagination:before {
+  content: "\e905";
+}
+.icon-step-forward:before {
+  content: "\e917";
+}
+.icon-payment:before {
+  content: "\e913";
+}
+.icon-search:before {
+  content: "\e914";
+}
+.icon-shootdown:before {
+  content: "\e915";
+}
+.icon-statusreport:before {
+  content: "\e9162";
+}
+.icon-user:before {
+  content: "\e9172";
+}
+.icon-usermenu:before {
+  content: "\e918";
+}

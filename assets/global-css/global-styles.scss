@@ -1,0 +1,99 @@
+
+
+// fuentes
+@import 'nunito.scss';
+
+
+// iconos
+@import 'xmicon.css';
+@import 'primeicons.css';
+
+// theme
+@import 'xmtheme/theme.css';
+
+// variables globales
+$color-purpura: #3F0099;
+$color-purpuraf: #6C1FD9;
+$color-purpurac: #8451CC;
+$color-naranja: #FF6A13;
+$color-naranjac: #FF9253;
+$color-gray-back: #F6F6F6;
+$color-gray-text: #8D8D8D;
+
+*, body{
+    font-family: 'Nunito', sans-serif !important;
+}
+
+body{
+    background-color: $color-gray-back;
+    margin: 0;
+}
+
+table {
+    font-size: 14px !important;
+}
+
+h2 {
+    color: #FF6A13;
+    font-size: 30px !important;
+    letter-spacing: 0;
+}
+
+
+// botones
+
+button:focus{
+    outline: none;
+}
+
+.btn-icon span {
+    float: left;
+    padding-left: 8px;
+    padding-top: 3px;
+}
+
+.btn-table {
+    background-color: transparent !important;
+    color: $color-purpura !important;
+    border: none !important;
+    font-size: 20px !important;
+}
+
+.btn-secondary-XM{
+    border: solid 10px #000;
+}
+
+.btn-dialog-footer {
+    width: 25% !important;
+}
+
+.btn-w100 {
+    width: 100%;
+}
+
+// contenedor 
+
+.global-container{
+    padding: 20px;
+    padding-left: 18%;
+    padding-top: 60px;
+}
+
+.global-container-full{ 
+    margin-left: 85px; 
+    transition: 0.3s ease; 
+}
+
+// extras
+
+.nopadding{
+    padding: 0 !important;
+}
+
+.shadow{
+    box-shadow: 0px 3px 6px rgba($color: #000000, $alpha: 0.16);
+}
+
+.column-index {
+    width: 10px;
+}
